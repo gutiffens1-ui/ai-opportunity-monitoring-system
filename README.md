@@ -1,3 +1,4 @@
+````md
 # AI Opportunity Monitoring System
 
 A Python-based AI workflow project for business development, internship search, and vertical drama production lead generation. AI Opportunity Radar is a beginner-friendly Python tool for finding, evaluating, and organizing short-form vertical drama production and business development opportunities.
@@ -18,8 +19,13 @@ flowchart TD
     F1[output.csv] --> F
     F2[daily_targets.csv] --> F
     F3[contact_database.csv] --> F
+````
 
 It can:
+
+```
+```
+
 
 
 - analyze opportunities you add to `opportunities.csv`
