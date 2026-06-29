@@ -2,7 +2,25 @@
 
 A Python-based AI workflow project for business development, internship search, and vertical drama production lead generation. AI Opportunity Radar is a beginner-friendly Python tool for finding, evaluating, and organizing short-form vertical drama production and business development opportunities.
 
+## Workflow
+
+```mermaid
+flowchart TD
+    A[Input CSV Files] --> B[Python Processing]
+    B --> C[OpenAI Opportunity Analysis]
+    C --> D[Outreach Quality Loop]
+    D --> E[Human Review]
+    E --> F[Output CSV Files]
+    E --> G[Optional Gmail Drafts]
+
+    A1[opportunities.csv] --> A
+    A2[seed_companies.csv] --> A
+    F1[output.csv] --> F
+    F2[daily_targets.csv] --> F
+    F3[contact_database.csv] --> F
+
 It can:
+
 
 - analyze opportunities you add to `opportunities.csv`
 - source up to 10 public or user-provided contacts from `seed_companies.csv`
